@@ -1,0 +1,114 @@
+/** Body Fonts */
+/* Regular Weight */
+@font-face {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Gilroy-Regular.ttf");
+}
+
+/* Medium Weight */
+@font-face {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    src: url("./assets/fonts/Gilroy-Medium.ttf");
+}
+
+/* SemiBold Weight */
+@font-face {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts/Gilroy-Bold.ttf");
+}
+
+/* Bold Weight */
+@font-face {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    src: url("./assets/fonts/Gilroy-Bold.ttf");
+}
+
+/* ExtraBold Weight */
+@font-face {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 900;
+    src: url("./assets/fonts/Gilroy-ExtraBold.ttf");
+}
+
+/* Thin Weight */
+@font-face {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    src: url("./assets/fonts/Gilroy-Thin.ttf");
+}
+
+/** Heading Fonts */
+/* Regular Weight */
+@font-face {
+    font-family: Nib Pro;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/NibPro-Regular.ttf");
+}
+
+/* SemiBold Weight */
+@font-face {
+    font-family: Nib Pro;
+    font-style: normal;
+    font-weight: 600;
+    src: url("./assets/fonts/NibPro-SemiBold.ttf");
+}
+
+/* Bold Weight */
+@font-face {
+    font-family: Nib Pro;
+    font-style: normal;
+    font-weight: 800;
+    src: url("./assets/fonts/NibPro-Bold.ttf");
+}
+
+/* Thin Weight */
+@font-face {
+    font-family: Nib Pro-Thin;
+    font-style: normal;
+    font-weight: 300;
+    src: url("./assets/fonts/NibPro-Light.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryBg: #212222;
+    --secondaryBg: #2f3030;
+    --primaryColor: #e0a80d;
+    --greyDark: #7d8792;
+    --headingColor: #2d2e2e;
+    --white: #fff;
+    --black: #000;
+    --silver: #bac8d3;
+}
+
+body {
+    background-color: var(--headingColor);
+    color: var(--white);
+}
+
+body * h1, h2, h3, h4, h5, h6 {
+    font-family: Nib Pro, sans-serif;
+    font-weight: 800;
+}
+
+body * p, span, button {
+    font-family: Gilroy, sans-serif;
+    font-weight: normal;
+}
