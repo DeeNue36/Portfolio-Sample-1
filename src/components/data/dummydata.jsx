@@ -89,3 +89,61 @@ export const services = [
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat.",
     },
 ]
+
+export const projects = [
+    {
+        id: 1,
+        icon: <CloudOutlined />,
+        num: "12",
+        title: "Happy Clients",
+    },
+    {
+        id: 2,
+        icon: <FavoriteBorder />,
+        num: "16",
+        title: "Projects Completed",
+    },
+    {
+        id: 3,
+        icon: <Public />,
+        num: "4+",
+        title: "Years of Experience",
+    },
+    {
+        id: 4,
+        icon: <PersonOutlined />,
+        num: "12k+",
+        title: "Lines of Code Written",
+    }
+]
+
+export const portfolio = [
+    {
+        id: 1,
+        cover: "../../assets/images/blog_website.jpg",
+        name: "Africana Leadership Digest",
+        category: "Blog",
+        title: "ALD",
+    },
+    {
+        id: 2,
+        cover: "../../assets/images/school_website.jpg",
+        name: "School of Transformational Leadership",
+        category: "Education",
+        title: "SoTL",
+    },
+    {
+        id: 3,
+        cover: "../../assets/images/home_appliances_website.jpg",
+        name: "Andrakk",
+        category: "E-commerce",
+        title: "Andrakk",
+    },
+    {
+        id: 4,
+        cover: "../../assets/images/jewelry_website.jpg",
+        name: "MayGems!",
+        category: "E-commerce",
+        title: "MayGems!",
+    }
+]
