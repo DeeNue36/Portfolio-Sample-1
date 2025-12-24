@@ -147,3 +147,91 @@ export const portfolio = [
         title: "MayGems!",
     }
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "John Doe",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat.",
+        image: "../../assets/images/testimonial_1.jpg",
+        post: "Owner - Lorem",
+    },
+    {
+        id: 2,
+        name: "Olusegun Osineye",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat.",
+        image: "../../assets/images/testimonial_2.jpg",
+        post: "Founder - ALD",
+    },
+    {
+        id: 3,
+        name: "Nduka Egwuatu",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat.",
+        image: "../../assets/images/testimonial_3.jpg",
+        post: "CEO - Andrakk",
+    },
+]
+
+export const blog = [
+    {
+        id: 1,
+        title: "Master These Awesome",
+        date: "Jun 7, 2025",
+        author: "Dugidem Egwuatu",
+        desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+        cover: "../../assets/images/blog/b1.jpg",
+    },
+    {
+        id: 2,
+        title: "Best Design Items to Appeal",
+        date: "Jul 24, 2025",
+        author: "Dugidem Egwuatu",
+        desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+        cover: "../../assets/images/blog/b2.jpg",
+    },
+    {
+        id: 3,
+        title: "The 20 Best Lightroom Presets",
+        date: "Oct 16, 2025",
+        author: "Dugidem Egwuatu",
+        desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+        cover: "../../assets/images/blog/b3.jpg",
+    },
+]
+
+export const contact = [
+    {
+        icon: <AddLocationAltOutlined />,
+        text1: "1024 Lorem Ipsum Street, Suit 16",
+        text2: "New York, NY 10001",
+    },
+    {
+        icon: <PhoneIphone />,
+        text1: "+1 234 567 890",
+        text2: "+1 324 675 980",
+    },
+    {
+        icon: <Email />,
+        text1: "dugi@example.com",
+        text2: "dugiinfo@example.com",
+    },
+]
+
+export const social = [
+    {
+        icon: <Facebook />,
+        link: "https://www.facebook.com/",
+    },
+    {
+        icon: <Twitter />,
+        link: "https://twitter.com/",
+    },
+    {
+        icon: <Instagram />,
+        link: "https://www.instagram.com/",
+    },
+    {
+        icon: <YouTube />,
+        link: "https://www.youtube.com/",
+    },
+]
