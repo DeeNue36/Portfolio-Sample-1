@@ -1,5 +1,5 @@
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined,
-PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@amui/icons-material"
+PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
 
 
 export const navlinks = [
@@ -211,7 +211,7 @@ export const contact = [
         text2: "+1 324 675 980",
     },
     {
-        icon: <Email />,
+        icon: <EmailOutlined />,
         text1: "dugi@example.com",
         text2: "dugiinfo@example.com",
     },
