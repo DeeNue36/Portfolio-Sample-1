@@ -112,3 +112,58 @@ body * p, span, button {
     font-family: Gilroy, sans-serif;
     font-weight: normal;
 }
+
+a {
+    text-decoration: none;
+    color: var(--greyDark);
+    transition: 0.5s;
+}
+
+a:hover {
+    color: var(--primaryColor);
+}
+
+p {
+    color: var(--silver);
+    font-size: 0.94rem;
+    line-height: 30;
+    margin: 1.25rem 0;
+}
+
+/** ------------ Header --------------- */
+
+header {
+    background-color: var(--headingColor);
+    height: 10vh;
+    /* line-height: 10vh; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header a {
+    margin-left: 2.5rem;
+
+}
+
+.header-container {
+    max-width: 1280px; /* 80% */
+    margin: 0 auto;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .logo {
+    height: 10vh;
+} */
+
+.logo-img {
+    width: 160px;
+    height: 160px;
+}
