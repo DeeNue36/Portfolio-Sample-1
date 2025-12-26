@@ -108,7 +108,7 @@ body * h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
 
-body * p, span, button {
+body * a, p, span, button {
     font-family: Gilroy, sans-serif;
     font-weight: normal;
 }
