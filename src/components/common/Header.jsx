@@ -14,7 +14,7 @@ export const Header = () => {
                     <div className="logo">
                         <img src={logo} className="logo-img" alt="portfolio logo" />
                     </div>
-                    <nav className="navbar">
+                    <nav className={ isOpen ? "hideNav" :"navbar"}>
                         {navlinks.map((navlink, index) => {
                             return (
                                 <Link key={index} to={navlink.url}>
