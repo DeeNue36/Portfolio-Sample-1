@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react' 
 import { Link } from 'react-router-dom';
 import { navlinks } from '../../components/data/dummydata';
 import logo from '../../assets/images/logo.png'
+import { Menu } from '@mui/icons-material'
 
 export const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <>
             <header>
@@ -19,14 +22,14 @@ export const Header = () => {
                                 </Link>
                             )
                         })}
-                        {/* <Link to=''>{}</Link> */}
-                        {/* <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul> */}
                     </nav>
+                    <button className='toggle'
+                        onClick={() => {
+                            setIsOpen(!isOpen);
+                        }} 
+                    >
+                        <Menu className='menu-icon'></Menu>
+                    </button>
                 </div>
             </header>
         </>
