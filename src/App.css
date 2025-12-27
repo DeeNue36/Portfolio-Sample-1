@@ -130,6 +130,19 @@ p {
     margin: 1.25rem 0;
 }
 
+button {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.125rem;
+    background-color: var(--primaryColor);
+    color: var(--white);
+    padding: .9375rem 3.125rem;
+    border-radius: 3.125rem;
+    margin-top: 1.25rem;
+    cursor: pointer;
+}
+
 /** ------------ Header --------------- */
 
 header {
@@ -164,6 +177,35 @@ header a {
 } */
 
 .logo-img {
-    width: 160px;
-    height: 160px;
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
 }
+
+.toggle {
+    color: var(--white);
+    display: none;;
+}
+
+
+
+
+
+
+
+/** ------------------------- Media Queries ----------------------------- */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    header .navbar {
+        display: none;
+    }
+    header a {
+        width: 100%;
+        display: block;
+        color: var(--white);
+    }
+    .toggle {
+        display: block;
+        background: none;
+        font-size: 1.5625rem;
+    }
+} 
