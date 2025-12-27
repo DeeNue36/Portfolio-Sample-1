@@ -148,7 +148,7 @@ button {
 header {
     background-color: var(--headingColor);
     height: 10vh;
-    /* line-height: 10vh; */
+    line-height: 10vh;
     position: sticky;
     top: 0;
     left: 0;
@@ -172,14 +172,9 @@ header a {
     align-items: center;
 }
 
-/* .logo {
-    height: 10vh;
-} */
-
-.logo-img {
-    width: 10rem;
-    height: 10rem;
-    object-fit: contain;
+.logo, .logo-img {
+    width: 8rem;
+    height: 8rem;
 }
 
 .toggle {
@@ -207,5 +202,13 @@ header a {
         display: block;
         background: none;
         font-size: 1.5625rem;
+    }
+    .hideNav {
+        display: block;
+        position: absolute;
+        top: 14vh;
+        left: 0;
+        width: 100%;
+        background-color: var(--headingColor);
     }
 } 
