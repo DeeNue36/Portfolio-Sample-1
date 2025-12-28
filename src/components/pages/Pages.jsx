@@ -1,22 +1,21 @@
 import React from 'react'
 import { 
     BrowserRouter as Router,
-    // Switch,
+    Routes,
     Route,
     Link
-} from 'react-router-dom';
+} from 'react-router-dom'
 import { Header } from '../common/Header'
+import { Home } from '../home/Home'
 
 export const Pages = () => {
     return (
         <>
             <Router>
                 <Header />
-                {/* <Switch>
-                    <Route path="/">
-                        <Home />
-                    </Route>
-                </Switch> */}
+                <Routes>
+                    <Route path="/" element={<Home /> } /> 
+                </Routes>
             </Router>
         </>
     )
