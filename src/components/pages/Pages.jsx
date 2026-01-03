@@ -2,8 +2,7 @@ import React from 'react'
 import { 
     BrowserRouter as Router,
     Routes,
-    Route,
-    Link
+    Route
 } from 'react-router-dom'
 import { Header } from '../common/Header'
 import { Home } from '../home/Home'
