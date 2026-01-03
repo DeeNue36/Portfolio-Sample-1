@@ -35,10 +35,10 @@ export const navlinks = [
 
 export const home = [
     {
-        text: 'Hi there, I am',
-        name: 'Dugidem Egwuatu',
-        post: 'Frontend Developer',
-        shortDesc: 'I build things for the web',
+        text: 'Welcome to my Haven',
+        name: 'My name is Dugidem Egwuatu',
+        post: 'A Frontend Developer',
+        shortDesc: 'I enjoy building things for the web',
         longDesc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores porro nostrum enim tenetur sequi aliquam dolor nemo, nisi harum esse ducimus similique, ipsam quo! Sequi odit libero rerum quis itaque.",
     },
 ]
