@@ -47,7 +47,7 @@ export const about = [
     {
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam et non doloribus voluptate eveniet. Ipsa exercitationem provident quos quibusdam ad id aperiam voluptatibus illo nesciunt consectetur error, assumenda cupiditate. Voluptatum?",
         desc1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et enim officiis maiores quae nesciunt? Animi, voluptatem. Esse minima optio dolor autem, quod, eos quas cumque molestias similique, pariatur error! Temporibus!",
-        cover: "../../assets/images/creative_1.jpg"
+        cover: "../../../src/assets/images/profile_pic.jpg"
     },
 ]
 
